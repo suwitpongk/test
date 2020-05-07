@@ -2,18 +2,6 @@ package main
 
 import "testing"
 
-// func TestMock(t *testing.T) {
-// 	assert := assert.New(t)
-
-// 	testObj := new(MyMockedObject)
-
-// 	testObj.On("concat", "1", "2").Return("123", nil)
-
-// 	test, _ := testObj.concat("1", "2")
-
-// 	assert.Equal(test, "123", "they should be equal")
-// }
-
 func Test_concat(t *testing.T) {
 	type args struct {
 		a string
